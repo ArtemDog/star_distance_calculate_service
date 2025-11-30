@@ -20,5 +20,5 @@ from distance_calculator import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', views.set_status, name='set-status'),
+    path('calculate-star-distance', views.set_status, name='calculate-star-distance'),
 ]

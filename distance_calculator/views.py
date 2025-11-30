@@ -13,7 +13,7 @@ from django.views.decorators.csrf import csrf_exempt
 logger = logging.getLogger(__name__)
 
 # Load configuration from environment variables
-CALLBACK_URL = os.getenv('CALLBACK_URL', 'http://10.236.255.130:8080/callback-calculate-service')
+CALLBACK_URL = os.getenv('CALLBACK_URL', 'http://192.168.1.21:8080//update-calculated-distance')
 MAX_WORKERS = int(os.getenv('MAX_WORKERS', '5'))
 
 executor = ThreadPoolExecutor(max_workers=MAX_WORKERS)
@@ -46,7 +46,7 @@ def background_task(request_id, token, stars):
     distances = calculate_distance(stars)
     
     payload = {
-        "request_id": request_id,
+        "request_id": int(request_id),
         "stars": distances
     }
     
