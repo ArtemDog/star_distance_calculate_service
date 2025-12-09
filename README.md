@@ -15,9 +15,9 @@
 
 | Сервис | Ссылка |
 |--------|--------|
-| **🌐 GitHub Pages** | https://artemdog.github.io/star-requests/ |
-| **⚙️ Основной веб-сервис (Go)** | https://github.com/artemdog/star-service |
-| **🔄 Асинхронный сервис (Django)** | https://github.com/artemdog/async-service |
-| **💻 Фронтенд (React)** | https://github.com/artemdog/star-requests-frontend |
+| **🌐 GitHub Pages** | https://artemdog.github.io/stars-distance-frontend/ |
+| **⚙️ Основной веб-сервис (Go)** | https://github.com/ArtemDog/web-dev-course |
+| **🔄 Асинхронный сервис (Django)** | https://github.com/ArtemDog/star_distance_calculate_service |
+| **💻 Фронтенд (React)** | https://github.com/ArtemDog/stars-distance-frontend |
 
 ---
